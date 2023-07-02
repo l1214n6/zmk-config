@@ -11,13 +11,14 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define U_MOUSE_MOVE_MAX 800
+#define U_MOUSE_SCROLL_MAX 30
 
 &mmv {
     time-to-max-speed-ms=<30>;
 };
 
 &mmv {
-    acceleration-exponent=<2>;
+    acceleration-exponent=<1>;
 };
 
 &mwh {
@@ -25,7 +26,7 @@
 };
 
 &mwh {
-    acceleration-exponent=<2>;
+    acceleration-exponent=<0>;
 };
 
 / {
