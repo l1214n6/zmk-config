@@ -31,7 +31,7 @@
 #define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
 &mmv {
-    time-to-max-speed-ms=<100>;
+    time-to-max-speed-ms=<128>;
 };
 
 &mmv {
@@ -39,7 +39,7 @@
 };
 
 &mwh {
-    time-to-max-speed-ms=<30>;
+    time-to-max-speed-ms=<1>;
 };
 
 &mwh {
