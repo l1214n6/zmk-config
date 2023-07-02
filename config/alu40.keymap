@@ -31,18 +31,14 @@
 #define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
 &mmv {
+    delay=<0>;
     time-to-max-speed-ms=<128>;
-};
-
-&mmv {
     acceleration-exponent=<2>;
 };
 
 &mwh {
+    delay=<0>;
     time-to-max-speed-ms=<0>;
-};
-
-&mwh {
     acceleration-exponent=<0>;
 };
 
