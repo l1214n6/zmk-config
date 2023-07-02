@@ -12,22 +12,6 @@
 
 #define U_MOUSE_MOVE_MAX 600
 
-&mmv {
-    time-to-max-speed-ms=30;
-};
-
-&mmv {
-    acceleration-exponent=2;
-};
-
-&mwh {
-    time-to-max-speed-ms=30;
-};
-
-&mwh {
-    acceleration-exponent=2;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
