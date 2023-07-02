@@ -13,7 +13,7 @@
 #define U_MOUSE_MOVE_MAX 600
 
 &mmv {
-    time-to-max-speed-ms = 30;
+    time-to-max-speed-ms=30;
 };
 
 &mmv {
@@ -21,7 +21,7 @@
 };
 
 &mwh {
-    time-to-max-speed-ms = 30;
+    time-to-max-speed-ms=30;
 };
 
 &mwh {
