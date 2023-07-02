@@ -20,7 +20,7 @@
 #define MOVE_LEFT MOVE_HOR(-U_MOUSE_MOVE_MAX)
 #define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
 
-#define U_MOUSE_SCROLL_MAX 64
+#define U_MOUSE_SCROLL_MAX 32
 #undef SCROLL_UP
 #undef SCROLL_DOWN
 #undef SCROLL_LEFT
@@ -31,11 +31,11 @@
 #define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
 &mmv {
-    time-to-max-speed-ms=<256>;
+    time-to-max-speed-ms=<300>;
 };
 
 &mmv {
-    acceleration-exponent=<1>;
+    acceleration-exponent=<2>;
 };
 
 &mwh {
@@ -43,7 +43,7 @@
 };
 
 &mwh {
-    acceleration-exponent=<0>;
+    acceleration-exponent=<2>;
 };
 
 / {
