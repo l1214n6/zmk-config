@@ -10,11 +10,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#define U_MOUSE_MOVE_MAX 4096
-#define U_MOUSE_SCROLL_MAX 64
+#define U_MOUSE_MOVE_MAX 8192
+#define U_MOUSE_SCROLL_MAX 128
 
 &mmv {
-    time-to-max-speed-ms=<128>;
+    time-to-max-speed-ms=<256>;
 };
 
 &mmv {
