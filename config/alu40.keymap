@@ -35,15 +35,15 @@
 };
 
 &mmv {
-    acceleration-exponent=<2>;
+    acceleration-exponent=<0>;
 };
 
 &mwh {
-    time-to-max-speed-ms=<1>;
+    time-to-max-speed-ms=<0>;
 };
 
 &mwh {
-    acceleration-exponent=<2>;
+    acceleration-exponent=<0>;
 };
 
 / {
