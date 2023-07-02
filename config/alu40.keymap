@@ -33,7 +33,7 @@
        &kp CAPS         &kp N1      &kp N2        &kp N3            &kp N4           &kp N5          &kp N6                &kp N7           &kp N8           &kp N9                 &kp N0    &kp BACKSPACE
      &kp ESCAPE    &kp AT_SIGN  &kp DOLLAR  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp PRINTSCREEN  &kp LEFT_ARROW        &kp DOWN_ARROW     &kp UP_ARROW  &kp RIGHT_ARROW               &kp HASH        &kp CARET
 &kp EXCLAMATION  &kp AMPERSAND  &kp K_UNDO     &kp K_CUT        &kp K_COPY      &kp K_PASTE      &kp INSERT        &kp SCROLLLOCK  &kp PAUSE_BREAK        &kp COMMA                &kp DOT  &kp EXCLAMATION
-         &trans         &trans      &trans        &trans  &kp LEFT_COMMAND           &trans       &lt 2 RET  &kp LEFT_PARENTHESIS     &kp ASTERISK      &kp PERCENT  &kp RIGHT_PARENTHESIS           &trans
+          &none          &none       &none         &none  &kp LEFT_COMMAND            &none       &lt 2 RET  &kp LEFT_PARENTHESIS     &kp ASTERISK      &kp PERCENT  &kp RIGHT_PARENTHESIS            &none
             >;
         };
 
@@ -41,8 +41,35 @@
             bindings = <
 &bt BT_SEL 0   &kp F1   &kp F2                &kp F3         &kp F4   &kp F5      &kp F6             &kp F7        &kp F8   &kp F9     &kp F10  &bt BT_NXT
 &out OUT_TOG  &kp F11  &kp F12               &kp F13        &kp F14  &kp F15    &kp HOME      &kp PAGE_DOWN   &kp PAGE_UP  &kp END  &kp DELETE  &bt BT_CLR
-      &trans   &trans   &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC   &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP   &trans      &trans      &trans
-      &trans   &trans   &trans                &trans         &trans   &trans      &trans             &trans        &trans   &trans      &trans      &trans
+       &none    &none    &none  &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC    &none  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP    &none       &none       &none
+       &none    &none    &none                 &none          &none    &none       &none              &none         &none    &none       &none       &none
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans     &trans  &kp K_PASTE  &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT       &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans     &trans       &trans      &trans
+&trans   &mo 5   &mo 5   &mo 4  &trans  &trans          &trans          &trans        &trans     &trans       &trans      &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
