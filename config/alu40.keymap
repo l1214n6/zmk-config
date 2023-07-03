@@ -31,8 +31,8 @@
 #undef SCROLL_RIGHT
 #define SCROLL_UP SCROLL_VERT(16)
 #define SCROLL_DOWN SCROLL_VERT(-16)
-#define SCROLL_LEFT SCROLL_HOR(-16)
-#define SCROLL_RIGHT SCROLL_HOR(16)
+#define SCROLL_LEFT SCROLL_HOR(-17)
+#define SCROLL_RIGHT SCROLL_HOR(17)
 
 &mmv {
     time-to-max-speed-ms=<160>;
