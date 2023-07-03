@@ -11,12 +11,10 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define U_MOUSE_MOVE_MAX 1536
-#define U_MOUSE_MOVE_TIME 512
 #define U_MOUSE_MOVE_EXPONENT 2
 #define U_MOUSE_MOVE_DELAY 0
 
 #define U_MOUSE_SCROLL_MAX 15
-#define U_MOUSE_SCROLL_TIME 1
 #define U_MOUSE_SCROLL_EXPONENT 0
 #define U_MOUSE_SCROLL_DELAY 0
 
@@ -37,6 +35,20 @@
 #define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_LEFT SCROLL_HOR(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
+
+&mwh {
+    time-to-max-speed-ms=<512>;
+};
+&mmv {
+    acceleration-exponent=<2>;
+};
+&mwh {
+    time-to-max-speed-ms=<1>;
+};
+&mwh {
+    acceleration-exponent=<0>;
+};
+
 
 / {
     keymap {
