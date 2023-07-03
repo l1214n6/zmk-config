@@ -113,5 +113,14 @@
 &none  &none  &none  &none  &none  &none        &mkp LCLK          &mkp RCLK          &mkp 3            &none             &none  &none
             >;
         };
+
+        layer_6 {
+            bindings = <
+&none  &none  &none  &none  &none  &none        &kp LG(LA(Y))      &kp LG(LA(U))             &kp LG(LA(I))      &kp LG(LA(O))        &none             &none
+&none  &none  &none  &none  &none  &none        &kp LG(LA(H))      &kp LG(LA(J))             &kp LG(LA(K))      &kp LG(LA(L))        &kp LG(LA(SEMI))  &none
+&none  &none  &none  &none  &none  &none        &kp LG(LA(B))      &kp LG(LA(N))             &kp LG(LA(M))      &kp LG(LA(COMMA))    &none             &none
+&none  &none  &none  &none  &none  &none        &kp LG(LA(SPACE))  &kp LG(LA(LEFT_BRACKET))  &kp LG(LA(EQUAL))  &kp LG(LA(MINUS))    &none             &none
+            >;
+        };
     };
 };
