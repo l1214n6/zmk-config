@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define U_MOUSE_MOVE_MAX 1536
-#define U_MOUSE_MOVE_TIME 128
+#define U_MOUSE_MOVE_TIME 100
 #define U_MOUSE_MOVE_EXPONENT 2
 #define U_MOUSE_MOVE_DELAY 0
 
