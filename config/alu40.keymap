@@ -78,10 +78,10 @@
 
         layer_2 {
             bindings = <
-&kp K_APP       &kp C_BRI_DEC &kp C_BRI_INC    &none                 &none             &none            &none           &none              &kp C_MUTE         &kp C_VOLUME_DOWN &kp C_VOL_UP  &kp C_PWR
-&out OUT_TOG    &none         &none            &none                 &none             &none            &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP        &kp END        &none         &bt BT_CLR
-&none           &none         &none            &kp C_BRIGHTNESS_DEC  &kp C_BRI_INC     &none            &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOL_UP       &none          &none         &none
-&none           &kp LEFT_GUI  &kp LEFT_CONTROL &kp LEFT_ALT          &kp LEFT_SHIFT    &none            &none           &none              &none              &none          &none         &none
+&RGB_TOG        &kp C_BRI_DEC &kp C_BRI_INC    &none                 &none             &none            &none           &none              &kp C_MUTE         &kp C_VOLUME_DOWN &kp C_VOL_UP  &kp C_PWR
+&out OUT_TOG    &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2          &bt BT_SEL 3      &bt BT_SEL 4     &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP        &kp END           &none         &bt BT_CLR
+&RGB_EFR        &RGB_EFF      &RGB_HUD         &RGB_HUI              &RGB_SAD          &RGB_SAI         &RGB_BRD        &RGB_BRI           &RGB_SPD           &RGB_SPI          &none         &none
+&none           &kt LEFT_GUI  &kt LEFT_CONTROL &kt LEFT_ALT          &kt LEFT_SHIFT    &none            &none           &none              &none              &none             &none         &none
             >;
         };
 
@@ -89,7 +89,7 @@
             bindings = <
 &none  &kp F1     &kp F2         &kp F3     &kp F4           &kp F5             &kp F6          &kp F7          &kp F8        &kp F9            &kp F10    &kp DELETE
 &none  &kp F11    &kp F12        &none      &none            &none              &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT         &none      &none
-&none  &none      &none          &none      &none            &none              &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END           &none      &none
+&none  &none      &none          &none      &none            &none              &none           &none           &none         &none           &none      &none
 &none  &none      &mo 5          &mo 4      &mo 6            &mkp LCLK          &mkp LCLK       &mkp RCLK       &mkp 3        &none             &none      &none
             >;
         };
