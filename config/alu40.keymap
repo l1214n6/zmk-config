@@ -78,7 +78,7 @@
 
         layer_2 {
             bindings = <
-&RGB_TOG        &kp C_BRI_DEC &kp C_BRI_INC    &none                 &none             &none            &none           &none              &kp C_MUTE         &kp C_VOLUME_DOWN &kp C_VOL_UP  &kp C_PWR
+&RGB_ON        &kp C_BRI_DEC &kp C_BRI_INC    &none                 &none             &none            &none           &none              &kp C_MUTE         &kp C_VOLUME_DOWN &kp C_VOL_UP  &kp C_PWR
 &out OUT_TOG    &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2          &bt BT_SEL 3      &bt BT_SEL 4     &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP        &kp END           &none         &bt BT_CLR
 &RGB_EFR        &RGB_EFF      &RGB_HUD         &RGB_HUI              &RGB_SAD          &RGB_SAI         &RGB_BRD        &RGB_BRI           &RGB_SPD           &RGB_SPI          &none         &none
 &none           &kt LEFT_GUI  &kt LEFT_CONTROL &kt LEFT_ALT          &kt LEFT_SHIFT    &none            &none           &none              &none              &none             &none         &none
