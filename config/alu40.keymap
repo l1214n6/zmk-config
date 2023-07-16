@@ -69,10 +69,10 @@
 
         lower {
             bindings = <
-&kp CAPS         &kp N1         &kp N2            &kp N3          &kp N4            &kp N5           &kp N6           &kp N7                 &kp N8               &kp N9               &kp N0                 &kp BACKSPACE
-&kp ESCAPE       &kp AT_SIGN    &kp DOLLAR        &kp LEFT_GUI    &kp LEFT_CONTROL  &kp PRINTSCREEN  &kp LEFT_ARROW   &kp DOWN_ARROW         &kp UP_ARROW         &kp RIGHT_ARROW      &kp HASH               &kp CARET
-&kp EXCLAMATION  &kp AMPERSAND  &kp K_UNDO        &kp K_CUT       &kp K_COPY        &kp K_PASTE      &kp INSERT       &kp SCROLLLOCK         &kp PAUSE_BREAK      &kp COMMA            &kp DOT                &kp EXCLAMATION
-&none            &kp LEFT_GUI   &kp LEFT_CONTROL  &kp LEFT_ALT    &kp LEFT_SHIFT    &none            &lt 2 RET        &kp LEFT_PARENTHESIS   &kp ASTERISK         &kp PERCENT          &kp RIGHT_PARENTHESIS  &none
+&kp CAPS         &kp N1         &kp N2            &kp N3           &kp N4            &kp N5           &kp N6           &kp N7                 &kp N8               &kp N9               &kp N0                 &kp BACKSPACE
+&kp ESCAPE       &kp AT_SIGN    &kp DOLLAR        &kp LEFT_GUI     &kp LEFT_CONTROL  &kp PRINTSCREEN  &kp LEFT_ARROW   &kp DOWN_ARROW         &kp UP_ARROW         &kp RIGHT_ARROW      &kp HASH               &kp CARET
+&kp EXCLAMATION  &kp AMPERSAND  &kp LEFT_GUI      &kp LEFT_CONTROL &kp LEFT_ALT      &kp LEFT_SHIFT   &kp INSERT       &kp SCROLLLOCK         &kp PAUSE_BREAK      &kp COMMA            &kp DOT                &kp EXCLAMATION
+&none            &kp LEFT_GUI   &kp LEFT_CONTROL  &kp LEFT_ALT     &kp LEFT_SHIFT    &none            &lt 2 RET        &kp LEFT_PARENTHESIS   &kp ASTERISK         &kp PERCENT          &kp RIGHT_PARENTHESIS  &none
             >;
         };
 
@@ -89,7 +89,7 @@
             bindings = <
 &none  &kp F1     &kp F2         &kp F3     &kp F4           &kp F5             &kp F6          &kp F7          &kp F8        &kp F9            &kp F10    &kp DELETE
 &none  &kp F11    &kp F12        &none      &none            &none              &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT         &none      &none
-&none  &none      &none          &none      &none            &none              &none           &none           &none         &none           &none      &none
+&none  &none      &kp K_UNDO     &kp K_CUT  &kp K_COPY      &kp K_PASTE         &none           &none           &none         &none           &none      &none
 &none  &none      &mo 5          &mo 4      &mo 6            &kp RET            &mkp LCLK       &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI     &none
             >;
         };
