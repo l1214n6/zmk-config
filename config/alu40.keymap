@@ -80,7 +80,7 @@
             bindings = <
 &none           &kp F1 &kp F2    &kp F3                 &kp F4             &kp F5            &kp F6           &kp F7              &kp F8         &kp F9 &kp F10  &kp C_PWR
 &out OUT_TOG    &kp F11  &kp F12     &bt BT_SEL 2          &bt BT_SEL 3      &bt BT_SEL 4     &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP        &kp END           &none         &bt BT_CLR
-&kp C_BRI_DEC &kp C_BRI_INC      &none         &kp C_BRI_DEC &kp C_BRI_INC          &none          &kp C_MUTE        &kp C_VOL_DOWN &kp C_VOL_UP           &none          &none         &none
+&kp C_BRI_DEC &kp C_BRI_INC      &none         &kp C_BRI_DEC &kp C_BRI_INC          &none          &kp C_MUTE        &kp C_VOL_DN &kp C_VOL_UP           &none          &none         &none
 &none           &kt LEFT_GUI  &kt LEFT_CONTROL &kt LEFT_ALT          &kt LEFT_SHIFT    &none            &none           &none              &none              &none             &none         &none
             >;
         };
@@ -88,7 +88,7 @@
         layer_3 {
             bindings = <
 &none  &kp N1     &kp N2         &kp N3     &kp N4           &kp N5             &kp N6          &kp N7          &kp N8        &kp N9            &kp N0    &kp DELETE
-&none  &none      &none          &mo 5      &mo 4            &mo 6              &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT         &none      &none
+&none  &none          &mo 5      &mo 4            &mo 6     &none         &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT         &none      &none
 &none  &none      &kp K_UNDO     &kp K_CUT  &kp K_COPY      &kp K_PASTE         &none           &none           &none         &none           &none      &none
 &none  &none      &mo 5          &mo 4      &mo 6            &mkp LCLK            &mkp LCLK       &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI     &none
             >;
