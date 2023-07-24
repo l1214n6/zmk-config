@@ -96,10 +96,10 @@
 
         layer_4 {
             bindings = <
-&none  &kp LC(RG(Q))    &mwh SCROLL_UP    &none              &none          &none        &none              &none              &none         &none            &none  &none
-&none  &mwh SCROLL_LEFT &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT  &kp LC(RG(F))  &none        &mmv MOVE_LEFT     &mmv MOVE_DOWN     &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &none
-&none  &none            &none             &none              &none          &none        &none              &none              &none         &none            &none  &none
-&none  &none            &none             &none              &none          &none        &mkp LCLK          &mkp RCLK          &mkp 3        &none            &none  &none
+&none &none            &mwh SCROLL_UP   &none             &none &none &none          &none          &none        &none           &none &none
+&none &mwh SCROLL_LEFT &mwh SCROLL_DOWN &mwh SCROLL_RIGHT &none &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none &none
+&none &none            &none            &none             &none &none &none          &none          &none        &none           &none &none
+&none &none            &none            &none             &none &none &mkp LCLK      &mkp RCLK      &mkp 3       &none           &none &none
             >;
         };
 
@@ -114,10 +114,10 @@
 
         layer_6 {
             bindings = <
-&none  &kp LA(N1) &kp LA(N2) &kp LA(N3) &kp LA(N4) &kp LA(N5) &kp LG(LA(Y))      &kp LG(LA(U))             &kp LG(LA(I))      &kp LG(LA(O))    &kp LA(N0)             &none
-&none  &none  &none  &none  &none  &none        &kp LG(LA(H))      &kp LG(LA(J))             &kp LG(LA(K))      &kp LG(LA(L))        &kp LG(LA(SEMI))  &none
-&none  &none  &none  &none  &none  &none        &kp LG(LA(B))      &kp LG(LA(N))             &kp LG(LA(M))      &kp LG(LA(COMMA))    &none             &none
-&none  &none  &none  &none  &none  &none        &kp LG(LA(SPACE))  &kp LG(LA(LEFT_BRACKET))  &kp LG(LA(EQUAL))  &kp LG(LA(MINUS))    &none             &none
+&none  &kp LA(N1) &kp LA(N2) &kp LA(N3) &kp LA(N4) &kp LA(N5) &kp LG(LC(Y))      &kp LG(LC(U))             &kp LG(LC(I))      &kp LG(LC(O))    &kp LA(N0)             &none
+&none  &none  &none  &none  &none  &none        &kp LG(LC(H))      &kp LG(LC(J))             &kp LG(LC(K))      &kp LG(LC(L))        &kp LG(LC(SEMI))  &none
+&none  &none  &none  &none  &none  &none        &kp LG(LC(B))      &kp LG(LC(N))             &kp LG(LC(M))      &kp LG(LC(COMMA))    &none             &none
+&none  &none  &none  &none  &none  &none        &kp LG(LC(SPACE))  &kp LG(LC(LEFT_BRACKET))  &kp LG(LC(EQUAL))  &kp LG(LC(MINUS))    &none             &none
             >;
         };
     };
