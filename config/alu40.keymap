@@ -115,9 +115,9 @@
         layer_6 {
             bindings = <
 &none  &kp LA(N1) &kp LA(N2) &kp LA(N3) &kp LA(N4) &kp LA(N5) &kp LA(LC(Y))            &kp LA(LC(U))             &kp LA(LC(I))      &kp LA(LC(O))    &kp LA(N0)             &none
-&none  &none  &none  &none  &none  &none        &kp LA(LC(H)) &kp LA(LC(J))            &kp LA(LC(K))      &kp LA(LC(L))        &kp LA(LC(SEMI))  &none
+&none  &kp LA(N6) &kp LA(N7) &kp LA(N8) &kp LA(N9) &kp LA(N0) &kp LA(LC(H)) &kp LA(LC(J))            &kp LA(LC(K))      &kp LA(LC(L))        &kp LA(LC(SEMI))  &none
 &none  &none  &none  &none  &none  &none        &kp LA(LC(B)) &kp LA(LC(N))            &kp LA(LC(M))      &kp LA(LC(COMMA))    &none             &none
-&none  &none  &none  &none  &none  &none        &kp LA(LC(D)) &kp LA(LC(LEFT_BRACKET)) &kp LA(LC(EQUAL))  &kp LA(LC(MINUS))    &none             &none
+&none  &none  &none  &none  &none  &none        &kp LA(LC(SPACE)) &kp LA(LC(LEFT_BRACKET)) &kp LA(LC(EQUAL))  &kp LA(LC(MINUS))    &kp LA(LC(RIGHT_BRACKET))             &none
             >;
         };
     };
