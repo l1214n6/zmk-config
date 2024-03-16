@@ -20,19 +20,19 @@
 #undef MOVE_DOWN
 #undef MOVE_LEFT
 #undef MOVE_RIGHT
-#define MOVE_UP MOVE_VERT(-1100)
-#define MOVE_DOWN MOVE_VERT(1100)
-#define MOVE_LEFT MOVE_HOR(-1300)
-#define MOVE_RIGHT MOVE_HOR(1300)
+#define MOVE_UP MOVE_Y(-1100)
+#define MOVE_DOWN MOVE_Y(1100)
+#define MOVE_LEFT MOVE_X(-1300)
+#define MOVE_RIGHT MOVE_X(1300)
 
 #undef SCROLL_UP
 #undef SCROLL_DOWN
 #undef SCROLL_LEFT
 #undef SCROLL_RIGHT
-#define SCROLL_UP SCROLL_VERT(11)
-#define SCROLL_DOWN SCROLL_VERT(-11)
-#define SCROLL_LEFT SCROLL_HOR(-13)
-#define SCROLL_RIGHT SCROLL_HOR(13)
+#define SCROLL_UP MOVE_Y(11)
+#define SCROLL_DOWN MOVE_Y(-11)
+#define SCROLL_LEFT MOVE_X(-13)
+#define SCROLL_RIGHT MOVE_X(13)
 
 &mmv {
     time-to-max-speed-ms=<160>;
